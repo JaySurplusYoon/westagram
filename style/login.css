@@ -1,0 +1,62 @@
+h1.loginTitle{
+    font-family: 'Lobster', cursive;
+    margin:15px 0;
+}
+
+.username, .pwd{
+    width:200px;
+    margin-bottom:10px;
+    padding:10px;
+    background-color: lightyellow;
+    border : 1px solid green;
+}
+
+.loginBtn{
+    width:200px;
+    height:30px;
+    color:white;
+    background-color: lightblue;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.btnActivate{
+    width:200px;
+    color:white;
+    background-color: blue;
+    border:none;
+    border-radius:5px;
+}
+
+.loginForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forgetPwd{
+    margin : 50px 0 0 5px;
+    font-size:x-small;
+    text-decoration: none;
+}
+
+.login{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:300px;
+    width:300px;
+    background-color: white;
+    border : 1px solid yellow;
+}
+
+main{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(246, 252, 230);
+}
+
+

@@ -1,0 +1,308 @@
+.westaIcon{
+  display: inline-block;
+  width:30px;
+}
+
+.westaName{
+  display:inline-block;
+  margin:10px;
+  padding-left:10px;
+  border-left:2px solid black;
+  font-size:x-large;
+  font-family:'Lobstar', cursive;
+}
+
+.serviceSymbolContainer,.postLikecounter,.userContainer{
+  display:flex;
+  align-items: center;
+}
+
+.searchPlaceholder{
+  position:absolute;
+  left:83.75px;
+  top: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color:gray;
+  font-size: small;
+}
+
+.searchBar{
+  width:200px;
+  background-color:lightgray;
+  border : 1px solid gray;
+}
+
+.searchBarContainer{
+  position:relative;  
+  display:flex;
+}
+
+.headerIcon{
+  width:20px;
+  margin:10px;
+}
+
+.redAlert{
+  height:10px;
+}
+
+.funcContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profileIcon{
+  width:20px;
+  height:20px;
+  margin:5px;
+}
+.profileContainer{
+  display:flex;  
+  flex-direction: row;
+  align-items: center;
+  padding:5px;
+}
+.paintBtnBackground{
+  background-color: aquamarine;
+}
+.profileWindow{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:200px;
+  margin-top:230px;
+  background-color: white;
+  box-shadow:3px 3px gray;
+}
+
+.headerFunc{
+  display:flex;
+}
+
+.navHeader{
+  position:fixed;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+  background-color: white;
+  border-bottom: 1px solid yellow;
+  z-index: 1;
+}
+
+.followeeId{
+  width:500px
+}
+
+.smallBoldFont{
+  color:black;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+.smallGrayFont{
+  color:gray;
+  font-size:smaller;
+}
+
+.doubleLineContainer{
+  display:flex;
+  flex-direction: column;
+}
+
+.myThumbnail, .followeeThumbnail{
+  width: 30px;
+  height:30px;
+  margin:10px;
+  border-radius: 90px;
+}
+
+.tridotBtn{
+  width:20px;
+  height:20px;
+  margin:10px;
+}
+
+.postTopbar{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width:100%;
+}
+
+.photo{
+  width : 600px;
+  height : 600px;
+}
+
+.postIcon{
+  width:30px;
+  height:30px;
+}
+
+.postIconBar{
+  display:flex;
+  justify-content: space-between;
+}
+
+.smallFolloweeThumbnail{
+  width: 20px;
+  height:20px;
+  margin: 0 10px 0 0;
+  border-radius: 90px;
+}
+
+.postMaintext{
+  margin: 10px 0;
+}
+.replyText{
+  margin-left:3px;
+}
+
+.replyIcon{
+  width:10px;
+  height:10px;
+  margin-left:5px;
+}
+
+.replyLine{
+  display:flex;
+  justify-content: space-between;
+}
+
+.insertReply{
+  width:90%;
+  height:40px;
+  border: 1px solid lightgray;
+  border-radius: 5%;
+}
+
+.submitReply{
+  width:9%;
+  height:40px;
+  border:none;
+  border-radius: 5px;
+}
+
+.replyComponent{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postInteractionParts{
+  padding:20px;
+}
+
+.postContainer{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom : 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+section{
+  margin:100px 0 0 0;
+}
+
+.personalContainer{
+  width: 100%;
+  height:100%;
+  position : fixed;
+  display:flex;
+  flex-direction: column;
+}
+.userThumbnail{
+  width:40px;
+  height:40px;
+  margin:10px 15px 10px 0px;
+  border-radius: 90px;
+}
+
+.asideBoxHeader{
+  position:sticky;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  top:0px;
+  padding:10px;
+  background-color: white;
+}
+
+.asideBoxTitle{
+  color:gray;
+  font-size:small;
+}
+.asideBoxSeeAllBtn{
+  color: black;
+  font-size: small;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.thumbnailIdContainer{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.asideBoxList{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.asideBox{
+  position: relative;
+  width:300px;
+  height: 200px;
+  margin-bottom: 10px;
+  border : 1px solid yellow;
+  background-color: white;
+  overflow: scroll;
+}
+
+aside{
+  position: relative;
+  top:100px;
+  height:800px;
+  margin-left: 20px;
+}
+
+.followBtn{
+  color:blue;
+  font-size: small;
+}
+
+.recommandList{
+  display:flex;
+}
+
+.footer>ul>li>a{
+  padding:10px;
+  color:gray;
+  text-decoration: none;
+}
+
+.footer>ul{
+  display:flex;
+  flex-wrap: wrap;
+  width:300px;
+}
+
+.footer>div{
+  color:gray;
+  padding:10px;
+}
+
+.main{
+  display:flex;
+  background-color: antiquewhite;
+}
